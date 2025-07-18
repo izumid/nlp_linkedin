@@ -5,7 +5,9 @@ import re
 import os
 from nltk.tokenize import ToktokTokenizer
 from collections import Counter
+import nltk
 from nltk.corpus import stopwords
+nltk.download('stopwords')
 
 
 def text_cleaning(text):
