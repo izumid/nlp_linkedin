@@ -1,0 +1,22 @@
+# Ignore folders and its contents
+/bin/
+/Include/
+/Lib/
+/Scripts/
+/share/
+/-v/
+/_check/
+/.venv/
+/.vscode/
+/_position/
+/_position_en/
+/_profile/
+
+# Ignore files with extension
+*.cfg
+*.svg
+
+
+# Ignore .env files (but not .env.example)
+!.env.example
+*.env
