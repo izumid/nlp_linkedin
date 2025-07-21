@@ -8,9 +8,12 @@
 /_check/
 /.venv/
 /.vscode/
-/_position/
-/_position_en/
-/_profile/
+/__position/
+/__profile/
+/img/
+
+# Ignore specific files
+analyses.py
 
 # Ignore files with extension
 *.cfg
