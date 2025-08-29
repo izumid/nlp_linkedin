@@ -1,4 +1,12 @@
 {
-    "stop_word": ["necessario","zeta","foguete","conhecimento","trabalho","mouts","sobre","buscamos","benefícios","via","experiência","flexível"]
-    ,"debug": false
+	"stop_word": ["necessario","zeta","foguete","conhecimento","trabalho","mouts","sobre","buscamos","benefícios","via","experiência","flexível"]
+	,"debug": false
+	,"url": "https://www.linkedin.com/my-items/saved-jobs/"
+	,"xpath_element": {
+		"login": ""
+		,"password": ""
+		,"position": "//div[contains(@class, 'workflow-results-container artdeco-card pt4')]//div[contains(@class, 'mb1')]"
+	}
+	
+
 }

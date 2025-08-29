@@ -18,8 +18,14 @@ analyses.py
 # Ignore files with extension
 *.cfg
 *.svg
+*.exe
+*.spec
+*.pyc
 
 
 # Ignore .env files (but not .env.example)
-!.env.example
 *.env
+!.env.example
+
+chromedriver/*
+!chromedriver/.gitkeep
